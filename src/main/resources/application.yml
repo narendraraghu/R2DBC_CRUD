@@ -1,0 +1,13 @@
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          r2dbc: DEBUG
+server:
+  port: 7999
+spring:
+  r2dbc:
+    password: Raghuwanshi
+    url: r2dbc:postgresql://localhost/myDatabase
+    username: postgres
